@@ -1,0 +1,19 @@
+{
+  "buildOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs"
+  },
+  "filesGlob": [
+    "**/*.ts"
+  ],
+  "files": [
+    "seed-random.d.ts",
+    "typings/browser.d.ts",
+    "typings/browser/ambient/node/node.d.ts",
+    "typings/main.d.ts",
+    "typings/main/ambient/node/node.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
